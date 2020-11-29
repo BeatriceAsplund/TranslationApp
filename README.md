@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# ASL Translation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was made with React, and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## About the app
+
+This app allows the user to translate words and sentences from English to American Sign Language (letters, not actual words). It consists of a login/register page, a translation page, and a profile/history page. The user's chosen name will be stored in local storage and displayed on the translation and profile pages. Additionally, the profile page will display the user's last 10 translations (also stored locally), and can choose to clear the history and/or sign out.
+The user can translate up to 40 characters at a time, and the translations are limited to characters from the English alphabet (including blank space).
 
 ## Available Scripts
 
@@ -68,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Created by  
+Beatrice Asplund
