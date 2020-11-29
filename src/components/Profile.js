@@ -11,10 +11,12 @@ const Profile = () => {
 
     const username = localStorage.getItem('username');
 
+    // This clears both the username and the translation history from local storage
     function handleLogout() {
         localStorage.clear();
     };
 
+    // This only clears the translation history, and updates the webpaga accordingly
     function handleClearHistory() {
         localStorage.removeItem('history');
         history = '';
