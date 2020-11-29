@@ -9,11 +9,13 @@ import './Register.css';
 
 const RegisterForm = () => {
     
+    // This handles the user's name input
     const [username, setUsername] = useState('');
     const handleNameInput = event => {
         setUsername(event.target.value);
     };
 
+    // This saves the user's name to local storage
     function handleLogin() {
         console.log(username);
         localStorage.setItem('username', username);
