@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+.App {
+  text-align: center;
+  background-color:white;
+  color: white;
+  padding: auto;
+  font-family: 'Love Ya Like A Sister', cursive;
+  margin-top: 15px;
+}
+
+#whiteBlock2 {
+    background-color: white;
+    margin-top: 200px;
+    width: 100%;
+    height: 348px;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+    bottom: 190px;
+}
+
+header {
+    height: 60px;
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #E7B355;
+}
+
+#smallRobotContainer {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+#titleSmall {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    bottom: 15px;
+}
+
+#username {
+    float: right;
+    margin-right: 60px;
+    margin-top: 15px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+#englishWord {
+    background-color: #EFEFEF ;
+    color: #969696;
+    height: 45px;
+    width: 420px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: white;
+    text-align: left;
+    padding-left: 60px;
+    margin: auto;
+    font-size: 18px;
+    outline: none;
+    position: relative;
+    left: 18px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+#circleButton2 {
+    float: right;
+    position: relative;
+    bottom: 5px;
+    right: 65px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #845EC2;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    z-index: 2;
+    outline: none;
+}
+
+#keyboard2 {
+    color: #969696;
+    height: 30px;
+    width: 30px;
+    font-size: 34px;
+    margin-left: 75px;
+    z-index: 2;
+    position: relative;
+    top: 7px;
+}
+
+#translationBox {
+    background-color: white;
+    height: 270px;
+    width: 480px;
+    position: relative;
+    bottom: 500px;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 1;
+    -webkit-box-shadow: 0 0 15px rgb(133, 133, 133);
+    box-shadow: 0 0 15px rgb(133, 133, 133);
+}
+
+#purpleStripe2 {
+    background-color: #845EC2;
+    height: 30px;
+    width: 480px;
+    margin: auto;
+    position: relative;
+    top: 278px;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 2;
+}
+
+.letter {
+    display: inline-block;
+}
+
+#padding {
+    padding: 30px;
+}

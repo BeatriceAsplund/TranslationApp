@@ -1,0 +1,50 @@
+#usernameContainer {
+    text-align: center;
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #E7B355;
+}
+
+h1 {
+    position: relative;
+    top: 12px;
+}
+
+#clearTranslations, #signOut {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 15px;
+    background-color: #845EC2;
+    border: none;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+#history {
+    width: 220px;
+    position: relative;
+    right: 190px;
+    bottom: 30px;
+    color: #969696;
+    z-index: 2;
+}
+
+#historyContainer {
+    background-color: #EFEFEF ;
+    color: #969696;
+    padding: 20px;
+    padding-top: 60px;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    border-style: solid;
+    border-color: #969696;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+}
