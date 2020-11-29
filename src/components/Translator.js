@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import './Translator.css';
 
+
 const Translator = () => {
     const [englishWord, setEnglishWord] = useState('');
     const handleTextChange = event => { 
@@ -25,21 +26,22 @@ const Translator = () => {
         }
     };
 
+    // This adds the sentences the user wants to translate to an array in the local storage
     function addToHistory() {
         let history = [];
         if (englishWord.length > 0) {
 
-            if (localStorage.getItem('history') == null) {
+            if (localStorage.getItem('history') == null) {  // If nothing exists in local storage, create and push to the 'history' array
                 
                 history.push(englishWord)
                 localStorage.setItem('history', JSON.stringify(history));
             
-            } else {
+            } else {  // If an array already exists, get it, then push the new data
 
                 history = JSON.parse(localStorage.getItem('history'));
 
                 if (history.includes(englishWord) === false) {
-                    if (history.legth >= 10) {
+                    if (history.legth >= 10) {  // Check if there already are 10 sentences in storage, and if so, remove the oldest entry
 
                         history.shift();
                         history.push(englishWord);
